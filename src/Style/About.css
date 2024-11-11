@@ -1,0 +1,31 @@
+.social-icon {
+font-size: 30px;
+display: flex;
+ justify-content: center;
+width: 200px;
+align-items: center;
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}
+.s-icon1{
+    color: blue;
+}
+.s-icon2{
+    color:black;
+}
+
+.s-icon3{
+    color: rgb(253, 122, 135);
+}
+
+.des-hero{
+       font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 750px) {
+    .social-icon {
+      width: 100px;  /* Chhote screens ke liye width reduce karen */
+      font-size: 20px;  /* Font size ko reduce karen */
+    }
+  }
